@@ -14,6 +14,19 @@ body {
   width: 100%;
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+i.social-icon {
+  animation: rotate 2s linear infinite;
+}
+
 div#main {
   display: flex;
   flex-direction: column;
